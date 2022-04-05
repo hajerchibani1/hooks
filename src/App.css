@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+.nav {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  background-color: black;
+}
+.navleft img {
+  width: 150px;
+  height: 50px;
+  object-fit: cover;
+}
+.nav .navrigth {
+  display: flex;
+  justify-content: space-around;
+}
+.navrigth button {
+  width: 150px;
+  height: 40px;
+  background-color: #e50914;
+  border: #e50914 solid;
+  border-radius: 3px;
+  margin-left: 5px;
+  margin-top: 5px;
+  color: white;
+}
+.content {
+  width: 50%;
+  color: aliceblue;
+  margin-left: 20px;
+}
+.content h1 {
+  font-size: 65px;
+}
+.content p {
+  font-size: 25px;
+  font-weight: 10px;
+}
+
+.filter {
+  width: min(800px, 95%);
+  padding: 12px;
+  margin-top: 10px;
+  display: flex;
+
+  color: azure;
+}
+
+.filter input {
+  width: 45%;
+  padding: 8px;
+}
+
+.filter .add button {
+  background-color: #e50914;
+  color: white;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  width: 100%;
+  padding: 8px;
+}
+
+.filter button ion-icon {
+  font-size: 2em;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.list {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  padding: 30px;
+}
+
+.card {
+  width: 250px;
+  margin-top: 30px;
+  position: relative;
+  padding: 5px;
+  font-size: 0.8em;
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.rate {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: red;
+  padding: 3px;
+  border-radius: 5px;
+  color: white;
+}
+
+.add .modal-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.349);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+.modal-content {
+  width: min(500px, 90%);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  position: relative;
+}
+
+.modal-content input {
+  width: 95%;
+  margin-top: 20px;
+}
+.modal-content ion-icon {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.add-m {
+  width: 95%;
+  padding: 12px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  cursor: pointer;
+}
